@@ -1,8 +1,8 @@
 task: detect
 mode: train
 model: yolov8n.pt
-data: D:\Meter reading\internship_computer_visions_engineering\data_Set.yaml
-epochs: 10
+data: D:/Meter reading/internship_computer_visions_engineering/data_Set/train.yaml
+epochs: 55
 time: null
 patience: 10
 batch: 8
@@ -28,7 +28,7 @@ resume: false
 amp: true
 fraction: 1.0
 profile: false
-freeze: null
+freeze: 10
 multi_scale: 0.0
 compile: false
 overlap_mask: true

@@ -1,0 +1,8 @@
+path: D:/Meter reading/internship_computer_visions_engineering/data_Set
+train: train
+val: validation
+test: test
+
+nc: 1
+names:
+  - meter
