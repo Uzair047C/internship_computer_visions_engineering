@@ -1,4 +1,4 @@
-path: D:/Meter reading/internship_computer_visions_engineering/data_Set/
+path: D:\INTERNSHIP\internship_computer_visions_engineering\data_Set
 train: train/augmented_images
 val: validation
 test: test
