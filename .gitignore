@@ -1,0 +1,40 @@
+# Python caches and environments
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.venv/
+.venv*/
+.env
+.env.*
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Model artifacts and large binaries
+*.h5
+*.keras
+*.pt
+*.onnx
+*.ckpt
+*.tflite
+*.engine
+
+# Computer vision datasets and generated media
+**/data_set/**/images/
+**/data_set/**/labels/
+**/data_Set/**/images/
+**/data_Set/**/labels/
+**/augmented_images/
+**/runs/
+**/outputs/
+
+# DVC cache and logs
+.dvc/cache/
+.dvclive/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/

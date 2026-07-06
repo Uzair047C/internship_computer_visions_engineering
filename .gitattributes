@@ -1,0 +1,5 @@
+# Normalize line endings automatically
+* text=auto
+
+# Keep notebooks as binary to avoid unsafe textual merges
+*.ipynb binary
