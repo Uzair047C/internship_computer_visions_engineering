@@ -1,4 +1,4 @@
-path: internship_computer_visions_engineering\data_Set
+path: ..\data_Set
 train: train/3rd_train
 val: validation
 test: test
