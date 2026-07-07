@@ -11,30 +11,3 @@ __pycache__/
 
 # Jupyter
 .ipynb_checkpoints/
-
-# Model artifacts and large binaries
-*.h5
-*.keras
-*.pt
-*.onnx
-*.ckpt
-*.tflite
-*.engine
-
-# Allow YOLO weights inside runs folder specifically
-!**/runs/**/*.pt
-
-# Computer vision datasets and generated media
-# **/data_set/**/labels/
-# **/data_Set/**/labels/
-# **/runs/
-**/outputs/
-
-# DVC cache and logs
-.dvc/cache/
-.dvclive/
-
-# OS/editor files
-.DS_Store
-Thumbs.db
-.vscode/

@@ -1,5 +1,7 @@
 # Normalize line endings automatically
 * text=auto
-
 # Keep notebooks as binary to avoid unsafe textual merges
 *.ipynb binary
+*.keras filter=lfs diff=lfs merge=lfs -text
+*.h5 filter=lfs diff=lfs merge=lfs -text
+*.pt filter=lfs diff=lfs merge=lfs -text
