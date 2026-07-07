@@ -1,7 +1,7 @@
 task: detect
 mode: train
 model: yolov8n.pt
-data: D:/Meter reading/internship_computer_visions_engineering/data_Set/train.yaml
+data: d:\Meter reading\internship_computer_visions_engineering\data_Set\train.yaml
 epochs: 20
 time: null
 patience: 10
@@ -14,7 +14,7 @@ device: cpu
 workers: 8
 project: null
 name: train
-exist_ok: false
+exist_ok: true
 pretrained: true
 optimizer: auto
 verbose: true
@@ -89,15 +89,15 @@ rle: 1.0
 angle: 1.0
 nbs: 64
 hsv_h: 0.015
-hsv_s: 0.7
-hsv_v: 0.4
-degrees: 0.0
+hsv_s: 0.6
+hsv_v: 0.35
+degrees: 10.0
 translate: 0.1
-scale: 0.5
-shear: 0.0
-perspective: 0.0
+scale: 0.3
+shear: 8.0
+perspective: 0.0008
 flipud: 0.0
-fliplr: 0.5
+fliplr: 0.0
 bgr: 0.0
 mosaic: 1.0
 mixup: 0.1
