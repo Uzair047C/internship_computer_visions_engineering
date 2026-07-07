@@ -22,11 +22,8 @@ __pycache__/
 *.engine
 
 # Computer vision datasets and generated media
-**/data_set/**/images/
 **/data_set/**/labels/
-**/data_Set/**/images/
 **/data_Set/**/labels/
-**/augmented_images/
 **/runs/
 **/outputs/
 
