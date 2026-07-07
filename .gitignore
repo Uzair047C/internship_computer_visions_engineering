@@ -21,10 +21,13 @@ __pycache__/
 *.tflite
 *.engine
 
+# Allow YOLO weights inside runs folder specifically
+!**/runs/**/*.pt
+
 # Computer vision datasets and generated media
-**/data_set/**/labels/
-**/data_Set/**/labels/
-**/runs/
+# **/data_set/**/labels/
+# **/data_Set/**/labels/
+# **/runs/
 **/outputs/
 
 # DVC cache and logs
