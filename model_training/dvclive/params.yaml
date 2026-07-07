@@ -1,8 +1,8 @@
 task: detect
 mode: train
-model: runs\detect\\train-2\weights\\best.pt
+model: runs\detect\\runs\\train_v3\weights\\best.pt
 data: ..\data_Set\train.yaml
-epochs: 20
+epochs: 15
 time:
 patience: 10
 batch: 8
@@ -12,8 +12,8 @@ save_period: -1
 cache: false
 device: cpu
 workers: 0
-project:
-name: train
+project: runs
+name: train_v4
 exist_ok: true
 pretrained: true
 optimizer: auto
@@ -28,12 +28,12 @@ resume: false
 amp: true
 fraction: 1.0
 profile: false
-freeze: 5
+freeze:
 multi_scale: 0.0
 compile: false
 overlap_mask: true
 mask_ratio: 4
-dropout: 0.2
+dropout: 0.0
 val: true
 split: val
 save_json: false
@@ -99,7 +99,7 @@ flipud: 0.0
 fliplr: 0.0
 bgr: 0.0
 mosaic: 1.0
-mixup: 0.1
+mixup: 0.0
 cutmix: 0.0
 copy_paste: 0.0
 copy_paste_mode: flip
@@ -108,4 +108,4 @@ erasing: 0.4
 cfg:
 tracker: botsort.yaml
 save_dir: 
-  D:\internship\internship_computer_visions_engineering\model_training\runs\detect\train
+  D:\internship\internship_computer_visions_engineering\model_training\runs\detect\runs\train_v4

@@ -1,6 +1,6 @@
 path: ../data_Set
 
-train: train/train
+train: train/train_1
 val: validation
 test: test
 
