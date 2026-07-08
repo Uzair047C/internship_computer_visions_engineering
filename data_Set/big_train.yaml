@@ -1,0 +1,10 @@
+path: ../data_Set
+
+train: train/train
+val: validation
+test: test
+
+nc: 1
+
+names:
+  - meter
