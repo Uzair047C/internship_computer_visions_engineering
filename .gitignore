@@ -21,8 +21,9 @@ __pycache__/
 *.tflite
 *.engine
 
-# Allow YOLO weights inside runs folder specifically
-!**/runs/**/*.pt
+# Allow tracked model files to be added explicitly
+!**/*.keras
+!**/*.pt
 
 # Computer vision datasets and generated media
 # **/data_set/**/labels/
