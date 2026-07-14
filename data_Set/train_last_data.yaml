@@ -1,0 +1,8 @@
+path: ..\data_Set
+train: train_2
+val: validation
+test: test
+
+nc: 1
+names:
+  - meter
